@@ -1,0 +1,54 @@
+{
+    "name": "Main",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "e0fa0183-5f04-4aaf-9f57-561c5b81f691",
+            "actions": [
+                {
+                    "name": "SelectMove",
+                    "type": "Button",
+                    "id": "2ee0a0f1-eb35-470a-a2cb-5366ab490884",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Interact",
+                    "type": "Button",
+                    "id": "1f1cbb5b-7fe4-4938-90df-b2c115d578ac",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "0f36c7ec-6c57-4c93-b207-de2f4fe2a5dd",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SelectMove",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ab35af93-2d37-4cf5-926d-12171b44e151",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
